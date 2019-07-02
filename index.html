@@ -16,7 +16,7 @@
         body {
             margin: 0;
             padding: 0;
-            background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("/static/media/airfield.jpg");
+            background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.9)), url("/static/media/airfield.jpg");
             background-attachment: fixed;
             background-repeat: no-repeat;
             background-position: center;
@@ -28,21 +28,18 @@
         }
 
         .intro {
-            display: flex;
-            flex-direction: column;
             width: 100vw;
-            height: 100vh;
-            justify-content: center;
+            min-height: 100vh;
             text-align: center;
             font-family: "Montserrat", sans-serif;
             font-weight: 800;
             color: white;
-            padding: 0;
+            padding-top: 20vh;
         }
 
         .pagecontent {
             background-color: rgba(255, 255, 255, 0.5);
-            border-radius: 16px;
+            border-radius: 8px;
         }
 
         .pagecontent h1 {
@@ -58,6 +55,8 @@
 </head>
 <body>
 <div class="container intro">
+    <img style="width: 50%; max-width: 150px; margin: 0 auto; margin-bottom: 3rem;"
+         src="/static/media/haero_notext_white.png">
     <h3>We are HCAERO.</h3>
     <h1 style="font-size: 8rem;">We fly planes at Harvard College.</h1>
 </div>
