@@ -1,2 +1,3 @@
-# hcaero.github.io
-HCAERO Website
+# huaero.github.io
+
+The Harvard Undergraduate Aeronautics (HUAERO) Website
