@@ -82,7 +82,8 @@
 </div>
 <div class="container footer">
     <p>The Harvard College name and/or shield are trademarks of the President and Fellows of Harvard College and are used by permission of Harvard University.</p>
-    <p>Copyright &copy; 2019 Harvard Undergraduate Aeronautics</p>
+    <p>Copyright &copy; <span id="year"></span> Harvard Undergraduate Aeronautics</p>
+    <script>document.getElementById("year").innerText = (new Date()).getFullYear();</script>
 </div>
 </body>
 </html>
